@@ -4,7 +4,7 @@ import os
 import torch
 
 from privacy_defense.defense_methods import DefenseName
-from privacy_after_training_attack.splitvfl_train_shadowmodel import main_task
+from privacy_attack_during_inference.splitvfl_train_shadowmodel import main_task
 from store_utils import get_experiment_name
 from store_utils import get_path_slash, ExperimentResultStructure
 from utils import str2bool

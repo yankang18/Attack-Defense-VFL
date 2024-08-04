@@ -6,7 +6,7 @@ import torch
 import torch.nn.functional as F
 from sklearn.metrics import roc_auc_score
 
-from privacy_after_training_attack.splitvfl_models.layers.passportconv2d_nonsignloss import PassportBlock
+from privacy_attack_during_inference.splitvfl_models.layers.passportconv2d_nonsignloss import PassportBlock
 from splitvfl_model_config import get_models
 from splitvfl_models.lenet_classifer import Classifier
 from splitvfl_utils import save_exp_result

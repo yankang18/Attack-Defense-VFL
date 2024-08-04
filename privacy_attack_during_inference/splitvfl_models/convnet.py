@@ -3,8 +3,8 @@ from collections import OrderedDict
 import torch
 import torch.nn as nn
 
-from privacy_after_training_attack.splitvfl_models.layers.conv2d import ConvBlock
-from privacy_after_training_attack.splitvfl_models.layers.passportconv2d_nonsignloss import PassportBlock
+from privacy_attack_during_inference.splitvfl_models.layers.conv2d import ConvBlock
+from privacy_attack_during_inference.splitvfl_models.layers.passportconv2d_nonsignloss import PassportBlock
 
 
 class ConvNetBottom(nn.Module):

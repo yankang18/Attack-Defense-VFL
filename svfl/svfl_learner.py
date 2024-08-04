@@ -8,7 +8,7 @@ from sklearn.metrics import roc_auc_score, f1_score
 from tqdm import tqdm
 
 from arch_utils import evaluate_result, f_beta_score
-from privacy_attack.label_recovery_base import BINARY_INSTANT_LABEL_RECOVERY_METHODS, \
+from privacy_attack_during_training.label_recovery_base import BINARY_INSTANT_LABEL_RECOVERY_METHODS, \
     BINARY_OPTIM_LABEL_RECOVERY_METHODS
 from privacy_defense.defense_methods import DefenseName
 from store_utils import save_model_checkpoints, save_exp_result

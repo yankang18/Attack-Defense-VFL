@@ -8,7 +8,7 @@ import torch
 import torch.nn as nn
 
 from arch_utils import build_layer_model, ModelType
-from privacy_attack.label_recovery_base import LabelRecoveryBase
+from privacy_attack_during_training.label_recovery_base import LabelRecoveryBase
 from utils import cross_entropy_for_one_hot
 
 

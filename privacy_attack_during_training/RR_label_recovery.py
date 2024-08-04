@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 
 from dataset.simple_dataset import SimpleDataset
 from models.mlp_torch import LinearModel, weights_init
-from privacy_attack.RR_util import compute_estimated_labels
+from privacy_attack_during_training.RR_util import compute_estimated_labels
 
 
 def optimize_residue(data_loader, inpupt_dim, learning_rate=0.01, epoch=5):

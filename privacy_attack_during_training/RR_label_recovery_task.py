@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 
 from dataset.simple_dataset import SimpleDataset
 from models.mlp_torch import LinearModel, weights_init
-from privacy_attack.RR_util import estimated_labels_precision, compute_estimated_labels
+from privacy_attack_during_training.RR_util import estimated_labels_precision, compute_estimated_labels
 from privacy_defense.defense_methods import DefenseName, DEFENSE_FUNCTIONS_DICT
 from store_utils import ExperimentResultStructure, save_exp_result
 from svfl.data_utils import get_default_credit_data, get_vehicle_data
